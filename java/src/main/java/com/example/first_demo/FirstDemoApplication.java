@@ -33,7 +33,7 @@ public class FirstDemoApplication {
     }
 
     public static StringBuilder getURLInfo(String urlInfo,String charset) throws Exception {
-        //读取目的网页URL地址，获取网页源码11
+        //读取目的网页URL地址，获取网页源码11ggggggssss
         URL url = new URL(urlInfo);
         HttpURLConnection httpUrl = (HttpURLConnection)url.openConnection();
         InputStream is = httpUrl.getInputStream();
