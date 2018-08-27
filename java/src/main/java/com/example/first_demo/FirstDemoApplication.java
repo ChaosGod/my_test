@@ -23,6 +23,7 @@ public class FirstDemoApplication {
     @RequestMapping(value = "/",produces = "text/plain;charset=UTF-8")
     String index(){
         try {
+            //fff
             StringBuilder urlInfo = getURLInfo("https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1445241432", "utf-8");
             save("D://study//test.txt",urlInfo);
         } catch (Exception e) {
